@@ -18,6 +18,12 @@
     margin: -32px 0 0 -32px;
 }
 
+/* begin top nav */
+
+
+
+/* end top nav */
+
 .view-container{
     margin-top:20px;
 }
@@ -196,6 +202,10 @@
 }
 .delete-cart:hover{
     cursor: pointer;
+}
+.cart-top {
+    width: 120px;
+    margin-top: 5px;
 }
 .books .book-list{
     display: inline-block;
@@ -408,8 +418,17 @@ nav.navbar-inverse .navbar-nav>li>a:hover,nav.navbar-inverse .navbar-nav>li>a.Ac
 }
 
 .caption {
-    height: 130px;
+    min-height: 200px;
     overflow: hidden;
+}
+
+.item-qty-true {
+    color: #2BC92B;
+    font-weight: bold;
+}
+.item-qty-false {
+    color: #C23636;
+    font-weight: bold;
 }
 
 .caption h4 {
