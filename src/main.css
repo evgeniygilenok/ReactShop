@@ -430,6 +430,34 @@ nav.navbar-inverse .navbar-nav>li>a:hover,nav.navbar-inverse .navbar-nav>li>a.Ac
     color: #C23636;
     font-weight: bold;
 }
+.sort-list {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+}
+.sort-list-left {
+    width: 100px;
+}
+.sort-list-left p {
+    margin: 0;
+}
+.sort-list-right {
+    width: 240px;
+}
+.nav-link-name {
+    color: #777;
+    font-size: 14px;
+}
+.search-field {
+    margin-right: 3%;
+}
+.select-field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .caption h4 {
     white-space: nowrap;
@@ -464,6 +492,20 @@ footer {
 @media only screen and (max-width : 992px){
 }
 @media only screen and (max-width : 768px){
+    .sort-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .field-search-select {
+        width: 65%;
+    }
+    .search-adaptive {
+        display: flex;
+    }
+    .search-adaptive div {
+        width: 90%;
+    }
 }
 @media only screen and (max-width : 480px){
 }
