@@ -204,8 +204,8 @@
     cursor: pointer;
 }
 .cart-top {
-    width: 120px;
-    margin-top: 5px;
+    /* width: 120px;
+    margin-top: 5px; */
 }
 .books .book-list{
     display: inline-block;
@@ -347,8 +347,12 @@ nav.navbar-inverse .navbar-nav>li>a:hover,nav.navbar-inverse .navbar-nav>li>a.Ac
 #dLabel{
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 18px;
+    height: 50px;
+}
+.basket-span {
+    line-height: 30px !important;
 }
 .open #dLabel:hover{
     color: #444;

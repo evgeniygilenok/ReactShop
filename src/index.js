@@ -16,6 +16,7 @@ import Phone from 'containers/phone';
 import Basket from 'containers/basket';
 import Contacts from 'containers/contacts';
 import BuyUnique from 'containers/buyUnique';
+import Information from 'containers/information';
 
 const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk)));
 
@@ -28,9 +29,10 @@ ReactDOM.render(
 			<Route path='/' component={Phones}/>
 			<Route path='categories/:id' component={Phones}/>
 		</Route>
-		<Route path='phones/:id' component={Phone}/>
+		<Route path='item/:id' component={Phone}/>
 		<Route path='basket' component={Basket} />
 		<Route path='buyUnique' component={BuyUnique} />
 		<Route path='contacts' component={Contacts} />
+		<Route path='information' component={Information} />
 	</Router>
 </Provider>, document.getElementById('root'))
