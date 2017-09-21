@@ -43,7 +43,14 @@
     min-height:165px;
 }
 
+.number-telephone {
+    margin: 10px;
+}
 
+.preload-mail {
+    text-align: center;
+    font-size: 20px;
+}
 
 .book-list figure {
     position: relative;
@@ -289,6 +296,9 @@
 .bt-change-cart span.glyphicon{
     cursor: pointer;
 }
+.glyphicon-shopping-cart {
+    font-size: 20px;
+}
 .x-change{
     margin-right: 5px;
 }
@@ -339,6 +349,16 @@ nav.navbar-inverse .navbar-nav>li>a:hover,nav.navbar-inverse .navbar-nav>li>a.Ac
     -webkit-box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
     box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
     color: #50a8e1;
+}
+.navbar-header {
+    width: 100px;
+}
+.navbar-brand {
+    padding: 5px;
+    width: 100px;
+}
+.navbar-brand img {
+    width: 100%;
 }
 
 .btn-inverse:hover{
@@ -480,6 +500,7 @@ nav.navbar-inverse .navbar-nav>li>a:hover,nav.navbar-inverse .navbar-nav>li>a.Ac
 
 .thumbnail {
     padding: 0;
+    border: none;
 }
 
 .thumbnail .caption-full {
@@ -490,12 +511,35 @@ footer {
     margin: 50px 0;
 }
 
+.side-logo {
+    display: none;
+    padding: 20px;
+    margin: auto;
+}
+.side-logo img {
+    width: 100%;
+}
+
 
 @media only screen and (max-width : 1200px){
 }
 @media only screen and (max-width : 992px){
+    .well {
+        width: 49%;
+    }
+    .side-logo {
+        display: inline-block;
+        width: 49%;
+    }
+    .categ-logo {
+        display: flex;
+        
+    }
 }
 @media only screen and (max-width : 768px){
+    .side-logo {
+        display: none;
+    }
     .sort-list {
         display: flex;
         flex-wrap: wrap;
@@ -509,6 +553,19 @@ footer {
     }
     .search-adaptive div {
         width: 90%;
+    }
+    .collapse {
+        display: block;
+    }
+    .collapse li {
+        text-align: center;
+    }
+    .navbar-header {
+        margin: auto;
+    }
+    .well {
+        text-align: center;
+        width: 100%;
     }
 }
 @media only screen and (max-width : 480px){
