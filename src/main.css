@@ -38,6 +38,22 @@
     position:relative;
     z-index:40;
 }
+.text-area {
+    width: 400px;
+    height: 300px;
+}
+.buyInput {
+    width: 300px;
+}
+
+.map {
+    margin: auto;
+    width: 90%;
+}
+.map iframe {
+    width: 100%;
+    min-height: 500px;
+}
 
 .caption{
     min-height:165px;
